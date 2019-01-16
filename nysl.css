@@ -1,0 +1,215 @@
+.container {
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    grid-template-rows: 300px 500px 1fr;
+    background-image: url(keep-calm-and-play-soccer-soccer.jpg)
+}
+
+.logo {
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+.logo img {
+    height: 100%;
+    width: 100%;
+}
+
+.title {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    font-family: fantasy;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    text-decoration-line: underline;
+    color: white;
+}
+
+.RightBanner img {
+    grid-column: 3/4;
+    grid-row: 1/3;
+    width: 100%;
+    height: 266%
+}
+
+.botones {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.Clicked {
+    padding: 10px;
+    font-size: 30px;
+    background-color: white;
+    width: 48%;
+    border-radius: 12px;
+}
+
+.Unclicked {
+    padding: 10px;
+    font-size: 30px;
+    background-color: grey;
+    width: 48%;
+    border-radius: 12px;
+}
+
+.SuB {
+    position: relative;
+    left: 864px;
+    top: -458px;
+    padding: 20px;
+    background-color: wheat;
+    border-radius: 20px;
+}
+
+.subtitle {
+    grid-column: 2/3;
+    grid-row: 2/5;
+}    
+    
+.subtitle h2 {
+    color: white;
+    font-size: 45px;
+    text-align: center;
+}
+
+.subtitle h3 {
+    color: white;
+    position: relative;
+    left: 10px;
+}
+
+.subtitle p {
+    color: white;
+    position: relative;
+}
+
+body {
+    margin: 0px;
+}
+
+.subtitle address {
+    padding: 10px;
+    background-color: wheat;
+    width: 45%;
+}
+
+.subtitle address p {
+    color: black;
+}
+
+.subtitle li {
+    color: white;
+}
+
+.subtitle td {
+    color: white;
+}
+
+.subtitle th {
+    color: white;
+}
+
+.tablas {
+    display: flex;
+    flex-direction: row;
+}
+
+.text { 
+    color: white;
+}
+.L1 {
+    display: flex;
+    justify-content: space-between;    
+}
+
+.L2 input {
+    width: 500px;
+}
+
+.L3 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.L4 {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.L5 input {
+    width: 489px
+}
+
+.L6 { 
+    display: flex;
+    justify-content: space-between;
+}
+
+.L7 {
+    display: flex;
+    }
+
+.c1 {
+    display: flex;
+    width: 50%;
+    flex-direction: column; 
+}
+
+.c2 { 
+   display: flex;
+    width: 50%;
+    flex-direction: column;
+}
+
+.L8 {
+    display: flex;
+    width: 100%;
+}
+
+.L9 {
+    display: flex;
+    flex-direction: column;
+   }
+
+.titlex {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.subtitlex {
+    position: relative;
+    left: 320px;
+}
+
+.c11 {
+    display: flex;
+}
+
+.c12 {
+   display: flex;
+    flex-direction: column;
+    width: 34%;
+}
+
+.c21 {
+    display: flex;
+    width: 50%;
+}
+
+.c22 {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.text p {
+    text-decoration: underline;
+    text-decoration-color: wheat;
+    font-size: 20px;
+}
